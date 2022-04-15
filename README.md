@@ -27,10 +27,11 @@ YZImageCacheView(
 ```
 
 ## Parameters description
-[width] 图片宽度
-[height] 图片高度
-[url] 图片地址
-[placeholderPath] 支持本地asset图片
-[fit] 图片适配方式，只支持BoxFit.contain, BoxFit.cover
-[cacheKey] 缓存标识
-[isAutoStableCacheKey] 一般不用！是否由系统自动以url排除query后的地址作为缓存标识，如果[cacheKey]值不为空则这个参数失效，如果 [cacheKey] 和 [isAutoStableCacheKey]都没传值默认 [url] 为标识
+- [width] 图片宽度
+- [height] 图片高度
+- [url] 图片地址
+- [placeholderPath] 支持本地asset图片
+- [fit] 图片适配方式，只支持BoxFit.contain, BoxFit.cover
+- [cacheKey] 缓存标识
+- [isAutoStableCacheKey] 一般不用！是否由系统自动以url排除query后的地址作为缓存标识，如果[cacheKey]值不为空则这个参数失效，如果 [cacheKey] 和 [isAutoStableCacheKey]都没传值默认 [url] 为标识
+
